@@ -2,6 +2,7 @@
 
 ## 概要
 goで作ったAWS lambdaをserverless frameworkでデプロイする勉強のために作成した。
+
 `serverless create -t aws-go-mod -p <destination>`でテンプレを作成し、sls offlineを追加するなど一部変更を行った。
 
 ## 機能
@@ -33,8 +34,9 @@ goで作ったAWS lambdaをserverless frameworkでデプロイする勉強のた
 
 ## デプロイ
 `make deploy`
-※ aws credentialsを設定すること
-※ region: ap-northeast-1
+
+- ※ aws credentialsを設定すること
+- ※ region: ap-northeast-1
 
 ## 削除
 `make destroy`
