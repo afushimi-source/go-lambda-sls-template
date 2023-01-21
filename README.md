@@ -27,7 +27,7 @@ goで作ったAWS lambdaをserverless frameworkでデプロイする勉強のた
 - sls offlineでローカルにサーバーを立ち上げる
   - `make start`
 - ローカルサーバーにアクセス
-  - `curl localhost:3000`
+  - `curl localhost:3000/hello`
   - `{"message":"Go Serverless v1.0! Your function executed successfully!"}`
   - と表示されれば問題ない。
   - ※ 自分の環境の場合、正常に実行できるようになるまで少し時間がかかり、最初の実行時に`timeout error`が発生したが、暫く待つとアクセスできる。
